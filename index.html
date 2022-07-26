@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Doom Fire</title>
+    <style>
+        html {
+            background-color: black;
+        }
+        table {
+            margin: 0 auto;
+            align-items: center;
+            border-collapse: collapse;
+            border: 1px solid grey;
+            background-color: white;
+        }
+        td {
+            width: 50px;
+            height: 50px;
+            border: 1px solid grey;
+            margin: 0 auto;
+            text-align: center;
+            font-family: monospace;
+            position: relative;
+        }
+        .pixel-index {
+            font-size: 10px;
+            display: inline-block;
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            color: rgb(255, 0, 242);
+        }
+        td.pixel {
+            width: 6px;
+            height: 5px;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="fireCanvas"></div>
+    <script src="fire.js"></script>
+</body>
+
+</html>
